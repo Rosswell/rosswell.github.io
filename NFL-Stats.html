@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>NFL Statistics Analysis</title>
-        <link rel="stylesheet" href="http://rosswell.github.io/theme/css/main.css" />
-        <link href="http://rosswell.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross's Blog Atom Feed" />
+	<!-- Basic Metas -->
+	<meta charset="utf-8">
+	<title>NFL Statistics Analysis | Ross's Blog</title>
+	<meta name="description" content="I decided, for my first post, to introduce and get familiar with the dataset that I plan to use for future learning and insight, which is basically all the offensive NFL statistics I could find. It’s a big enough dataset that you can potentially get insight from it, but not fully comprehensive of what a professional football game is as a whole. There are a few intentional decisions that I made when thinking about what I wanted out of this dataset.">
+	<meta name="author" content="">
+	<link rel="author" href=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+	<!-- Twitter Cards and Open Graph -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="">
+	<meta name="twitter:domain" content="">
+	<meta name="twitter:site" content="">
+	<meta property="og:title" content="NFL Statistics Analysis">
+	<meta property="og:description" content="I decided, for my first post, to introduce and get familiar with the dataset that I plan to use for future learning and insight, which is basically all the offensive NFL statistics I could find. It’s a big enough dataset that you can potentially get insight from it, but not fully comprehensive of what a professional football game is as a whole. There are a few intentional decisions that I made when thinking about what I wanted out of this dataset.">
+	<meta property="og:image" content="http://rosswell.github.io/images/icons/avatar.png">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://rosswell.github.io/NFL-Stats.html">
+
+	<!-- Stylesheets and Web Fonts -->
+	<link href="/theme/style.min.css?7b1a1481" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon-180x180.png">
+
+	<link rel="icon" type="image/png" href="/images/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-196x196.png" sizes="196x196">
+
+	<meta name="theme-color" content="">
+
+	<meta name="msapplication-TileColor" content="">
+	<meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png">
+	<meta name="msapplication-square70x70logo" content="/images/icons/mstile-small.png">
+	<meta name="msapplication-square150x150logo" content="/images/icons/mstile-medium.png">
+	<meta name="msapplication-wide310x150logo" content="/images/icons/mstile-wide.png">
+	<meta name="msapplication-square310x310logo" content="/images/icons/mstile-large.png">
+
+	<!--[if lt IE 9]>
+	<script src="/theme/js/html5shiv.min.js"></script>
+	<script src="/theme/js/respond.min.js"></script>
+	<![endif]-->
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://rosswell.github.io/">Ross's Blog </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="http://rosswell.github.io/category/nfl.html">NFL</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="http://rosswell.github.io/NFL-Stats.html" rel="bookmark"
-           title="Permalink to NFL Statistics Analysis">NFL Statistics Analysis</a></h1>
-    </header>
+<body>
+	<div class="container">
+		<aside>
+			<a href="/"><img id="avatar" alt="Site Avatar" src="/images/icons/avatar.png"></a>
+			<div id="name"><a href="/">Ross's Blog</a></div>
+			<div id="bio"></div>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-07-30T20:00:00-07:00">
-                Published: Sun 30 July 2017
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://rosswell.github.io/author/ross-blanchard.html">Ross Blanchard</a>
-        </address>
-<p>In <a href="http://rosswell.github.io/category/nfl.html">NFL</a>.</p>
-<p>tags: <a href="http://rosswell.github.io/tag/pyton-nfl-jupyter-pandas-bokeh.html">pyton NFL jupyter pandas bokeh</a> </p>
-</footer><!-- /.post-info -->      <style type="text/css">/*!
+
+			<hr id="sidebar-divider">
+		</aside>
+
+		<article>
+	<h1 class="title"><a href="/NFL-Stats.html" title="Permalink to NFL Statistics Analysis">NFL Statistics Analysis</a></h1>
+	<time class="date" datetime="2017-07-30 20:00:00-07:00">Sun 30 July 2017</time>
+	<div class="content">
+		<style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1056,10 +1091,10 @@ h6:hover .anchor-link {
 </div>
 <div class="output_area">
 <div class="prompt"></div>
-<div id="ceef3be9-e26a-437b-a75e-468baf15bd9d"></div>
+<div id="272d5482-18ed-4942-8390-04a3186766e2"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#ceef3be9-e26a-437b-a75e-468baf15bd9d');
+var element = $('#272d5482-18ed-4942-8390-04a3186766e2');
 
 (function(global) {
   function now() {
@@ -8136,38 +8171,17 @@ EEIIeQb/H0mIOD0giTydAAAAAElFTkSuQmCC
 }
 </script>
 
-    </div><!-- /.entry-content -->
+	</div>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://rosswell.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+			<hr>
+		</article>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+		<footer>
+			<p></p>
+		</footer>
+	</div>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
 
 </body>
 </html>
