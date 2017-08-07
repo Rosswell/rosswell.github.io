@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ross's Blog</title><link href="http://rosswell.github.io/" rel="alternate"></link><link href="http://rosswell.github.io/feeds/nfl.atom.xml" rel="self"></link><id>http://rosswell.github.io/</id><updated>2017-07-30T20:00:00-07:00</updated><entry><title>NFL Statistics Analysis</title><link href="http://rosswell.github.io/NFL-Stats.html" rel="alternate"></link><published>2017-07-30T20:00:00-07:00</published><updated>2017-07-30T20:00:00-07:00</updated><author><name>Ross Blanchard</name></author><id>tag:rosswell.github.io,2017-07-30:NFL-Stats.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ross Blanchard</title><link href="http://rosswell.github.io/" rel="alternate"></link><link href="http://rosswell.github.io/feeds/nfl.atom.xml" rel="self"></link><id>http://rosswell.github.io/</id><updated>2017-07-30T20:00:00-07:00</updated><entry><title>NFL Statistics Analysis</title><link href="http://rosswell.github.io/2017/07/NFL-Stats/" rel="alternate"></link><published>2017-07-30T20:00:00-07:00</published><updated>2017-07-30T20:00:00-07:00</updated><author><name>Ross Blanchard</name></author><id>tag:rosswell.github.io,2017-07-30:2017/07/NFL-Stats/</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1018,10 +1018,10 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="272d5482-18ed-4942-8390-04a3186766e2"&gt;&lt;/div&gt;
+&lt;div id="d705cff1-b1cc-4575-bc86-3a00b2b95b0d"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#272d5482-18ed-4942-8390-04a3186766e2');
+var element = $('#d705cff1-b1cc-4575-bc86-3a00b2b95b0d');
 
 (function(global) {
   function now() {
